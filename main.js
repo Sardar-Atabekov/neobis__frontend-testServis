@@ -4,7 +4,7 @@ Song = new Audio("00183.mp3");
 wrapper.addEventListener("mouseout", () => {
   Song.play();
   setTimeout(() => {
-    alert("Дибил мы же предупреждали");
+    alert("Мы же тебя предупреждали!! -10 баллов!");
   }, 400);
   setTimeout(() => {
     Song.pause();
