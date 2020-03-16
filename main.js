@@ -1,4 +1,4 @@
-Aman, [16.03.20 18:00]
+
 let wrapper = document.querySelector('.wrapper');
 
 
