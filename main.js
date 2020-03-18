@@ -1,5 +1,10 @@
 let wrapper = document.querySelector(".wrapper");
-
+let btn = document.querySelector(".btn");
+let message = document.querySelector(".message");
+btn.addEventListener("click", () => {
+  wrapper.style.display = "block";
+  message.style.display = "none";
+});
 let play = () => {
   Song.play();
   setTimeout(() => {
