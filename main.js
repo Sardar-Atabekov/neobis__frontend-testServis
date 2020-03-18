@@ -1,6 +1,7 @@
 let wrapper = document.querySelector(".wrapper");
 let btn = document.querySelector(".btn");
 let message = document.querySelector(".message");
+let messageError = document.querySelector(".messageError");
 btn.addEventListener("click", () => {
   wrapper.style.display = "block";
   message.style.display = "none";
@@ -10,6 +11,8 @@ let play = () => {
   setTimeout(() => {
     alert("Мы тебя предупреждали!! Минус 10 баллов");
   }, 400);
+  wrapper.style.display = "none";
+  messageError.style.display = "block";
   setTimeout(() => {
     Song.pause();
   }, 3000);
