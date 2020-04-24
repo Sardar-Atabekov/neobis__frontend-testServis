@@ -6,10 +6,11 @@ btn.addEventListener("click", () => {
   wrapper.style.display = "block";
   message.style.display = "none";
 });
+let ball = 30;
 let play = () => {
   Song.play();
   setTimeout(() => {
-    alert("Мы тебя предупреждали!! Минус 10 баллов");
+    alert("Мы тебя предупреждали!! Минус 5 баллов");
   }, 400);
   wrapper.style.display = "none";
   messageError.style.display = "block";
